@@ -50,6 +50,7 @@ ul {
   color: var(--p-color);
   --apple-color: #777777;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 .text-center {
   text-align: center;
@@ -205,4 +206,31 @@ display: none;  }
 }
 .count h2{
   font-size: 40px;
+}
+.unique-features{
+  text-align: center;
+  background-color: var(--background-color);
+}
+.unique-features h2{
+  font-size: 40px;
+  padding: 20px;
+}
+.books {
+  background-color: var(--background-color);
+padding: 20px ;
+}
+.books .book{
+  background-color: var(--white);
+  padding: 30px 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(0 0 0 / 0.1);
+}
+.books .book img{
+  width: 90px;
+  background-color: var(--btn-color);
+  padding: 20px;
+  border-radius: 4px;
+}
+.books .book h3{
+padding: 25px 0;
 }
