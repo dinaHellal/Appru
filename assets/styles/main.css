@@ -252,6 +252,11 @@ header .logo a {
   border: none;
   outline: none;
 }
+.detils-info button:hover{
+  background-color: var(--bg-alt);
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
 .customer .container{
   text-align: center;
 }
@@ -270,4 +275,21 @@ header .logo a {
 .customer .container .cards .card img{
   width: 60px;
 margin-left: 10px;
+}
+.featured-screens{
+  text-align: center;
+  padding: 80px;
+  background-color: var(--background-color);
+}
+.featured-screens .container h3{
+font-size: 40px;
+padding: 20px 0;
+}
+.featured-screens .container p{
+  padding: 20px;
+}
+.featured-screens .container .cards .card img{
+width: 200px;
+margin-left: 20px;
+padding-top: 20px;
 }
