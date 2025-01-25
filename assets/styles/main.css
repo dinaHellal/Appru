@@ -252,3 +252,22 @@ header .logo a {
   border: none;
   outline: none;
 }
+.customer .container{
+  text-align: center;
+}
+.customer .container h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 10px 0;
+}
+.customer .container img{
+  width: 20px;
+}
+.customer .container p{
+  padding-top: 40px;
+}
+.customer .container .cards .card img{
+  width: 60px;
+margin-left: 10px;
+}
