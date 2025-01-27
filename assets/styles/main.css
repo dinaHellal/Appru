@@ -10,6 +10,7 @@
   --background-color: rgb(240, 239, 239);
   --btn-color: #46bdf9b6;
   --p-color: #777777;
+  --footer: #222222;
   --h1-size: 45px;
   --h2-size: 36px;
   --section-padding: 40px;
@@ -177,11 +178,17 @@ header .logo a {
   padding: 10px 10px;
   background-color: rgb(0 0 0 / 0.1);
 }
+.cards .card.apple:hover {
+  background-color: var(--btn-color);
+}
 .cards .card.androied {
   background-color: var(--text-color);
   color: var(--white);
   padding: 5px 10px;
   text-align: center;
+}
+.cards .card.androied:hover {
+  background-color: var(--btn-color);
 }
 @media (max-width: 992px) {
   .hero-image {
@@ -245,51 +252,120 @@ header .logo a {
 .detils-info h2 {
   font-size: 40px;
 }
-.detils-info button{
+.detils-info button {
   padding: 15px 35px;
   background-color: var(--btn-color);
   color: var(--white);
   border: none;
   outline: none;
 }
-.detils-info button:hover{
+.detils-info button:hover {
   background-color: var(--bg-alt);
   border: 1px solid var(--btn-color);
   color: var(--btn-color);
 }
-.customer .container{
+.customer .container {
   text-align: center;
 }
-.customer .container h3{
+.customer .container h3 {
   text-align: center;
   font-size: 30px;
   font-weight: 200;
   padding: 10px 0;
 }
-.customer .container img{
+.customer .container img {
   width: 20px;
 }
-.customer .container p{
+.customer .container p {
   padding-top: 40px;
 }
-.customer .container .cards .card img{
+.customer .container .cards .card img {
   width: 60px;
-margin-left: 10px;
+  margin-left: 10px;
 }
-.featured-screens{
+.featured-screens {
   text-align: center;
   padding: 80px;
   background-color: var(--background-color);
 }
-.featured-screens .container h3{
-font-size: 40px;
-padding: 20px 0;
+.featured-screens .container h3 {
+  font-size: 40px;
+  padding: 20px 0;
 }
-.featured-screens .container p{
+.featured-screens .container p {
   padding: 20px;
 }
-.featured-screens .container .cards .card img{
-width: 200px;
-margin-left: 20px;
-padding-top: 20px;
+.featured-screens .container .cards .card img {
+  width: 200px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+footer {
+  background-color: var(--footer);
+  color: var(--white);
+}
+footer .container {
+  gap: 70px;
+  padding: 40px 0;
+}
+.contact h3 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.contact ul li a {
+  color: var(--p-color);
+  line-height: 1.9;
+}
+.contact input {
+  padding: 9px 60px;
+}
+.contact button {
+  position: relative;
+  top: 6.9px;
+  left: -5px;
+  padding: 4px;
+  background-color: var(--btn-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.contact button img {
+  width: 25px;
+}
+.copyright .copy a {
+  color: var(--btn-color);
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.copy .card {
+  gap: 10px;
+  padding: 8px 30px;
+}
+.copy .card img {
+  background-color: rgb(0 0 0 / 0.1);
+  width: 50px;
+}
+.card .card-info h4 {
+  font-size: 20px;
+}
+.card .card-info span {
+  font-size: 13px;
+}
+.copy .card.apple {
+  border: 1px solid rgb(0 0 0 / 0.1);
+  padding: 5px 20px;
+  background-color: rgb(0 0 0 / 0.1);
+}
+.card.apple:hover {
+  background-color: var(--btn-color);
+}
+.card.androied {
+  background-color: var(--text-color);
+  color: var(--white);
+  padding: 5px 20px;
+  text-align: center;
+}
+.card.androied:hover {
+  background-color: var(--btn-color);
 }
